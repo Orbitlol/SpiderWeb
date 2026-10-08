@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="WebStyleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/WebStyleData.gd" id="1_script"]
+
+[resource]
+script = ExtResource("1_script")
+style_id = "gold"
+style_name = "Gold"
+primary_color = Color(0.95, 0.78, 0.28, 1.0)
+accent_color = Color(1.0, 0.92, 0.55, 1.0)
+thickness = 0.03
+glow = 2.1
+braid_scale = 18.0
+scroll_speed = 1.8
+strands = 2
+pattern = "braid"

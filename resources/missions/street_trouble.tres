@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="MissionData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/MissionData.gd" id="1_script"]
+
+[resource]
+script = ExtResource("1_script")
+mission_id = "street_trouble"
+title = "Street Trouble"
+briefing = "Four thugs have a civilian boxed in. Break it up."
+mission_type = "combat"
+district_id = "skyline"
+objective_count = 4
+time_limit = 0.0
+reward_tokens = 12
+reward_xp = 50
+reward_suit = "armored"
+next_mission = "king_of_the_sky"
+story_flag = "street_clear"

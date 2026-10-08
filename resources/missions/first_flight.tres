@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="MissionData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/MissionData.gd" id="1_script"]
+
+[resource]
+script = ExtResource("1_script")
+mission_id = "first_flight"
+title = "First Flight"
+briefing = "Five rings off the rooftop. Do not web the street."
+mission_type = "traversal"
+district_id = "skyline"
+objective_count = 5
+time_limit = 0.0
+reward_tokens = 8
+reward_xp = 40
+reward_suit = ""
+next_mission = "street_trouble"
+story_flag = "first_flight"

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="EnemyData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/EnemyData.gd" id="1_script"]
+
+[resource]
+script = ExtResource("1_script")
+enemy_id = "goblin_king"
+display_name = "Goblin King"
+max_health = 280.0
+move_speed = 0.0
+attack_damage = 14.0
+attack_range = 8.0
+detect_range = 40.0
+attack_windup = 0.7
+color = Color(0.2, 0.55, 0.18, 1.0)
+can_swing_anchor = true
+score_value = 100

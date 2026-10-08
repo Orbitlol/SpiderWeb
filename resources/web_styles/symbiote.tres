@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="WebStyleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/WebStyleData.gd" id="1_script"]
+
+[resource]
+script = ExtResource("1_script")
+style_id = "symbiote"
+style_name = "Symbiote"
+primary_color = Color(0.08, 0.08, 0.1, 1.0)
+accent_color = Color(0.55, 0.15, 0.75, 1.0)
+thickness = 0.046
+glow = 1.2
+braid_scale = 14.0
+scroll_speed = 0.6
+strands = 3
+pattern = "tendril"

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="EnemyData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/EnemyData.gd" id="1_script"]
+
+[resource]
+script = ExtResource("1_script")
+enemy_id = "thug"
+display_name = "Thug"
+max_health = 70.0
+move_speed = 4.2
+attack_damage = 8.0
+attack_range = 1.8
+detect_range = 16.0
+attack_windup = 0.55
+color = Color(0.25, 0.27, 0.32, 1.0)
+can_swing_anchor = false
+score_value = 10

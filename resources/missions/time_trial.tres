@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="MissionData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/MissionData.gd" id="1_script"]
+
+[resource]
+script = ExtResource("1_script")
+mission_id = "time_trial"
+title = "Skyline Trial"
+briefing = "Six rings. Ninety seconds. Keep your speed."
+mission_type = "time_trial"
+district_id = "skyline"
+objective_count = 6
+time_limit = 90.0
+reward_tokens = 10
+reward_xp = 40
+reward_suit = ""
+next_mission = ""
+story_flag = "trial_done"

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="DistrictData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/DistrictData.gd" id="1_script"]
+
+[resource]
+script = ExtResource("1_script")
+district_id = "yards"
+display_name = "The Yards"
+description = "Cranes, low roofs, and the glider's plaza."
+wall_color = Color(0.22, 0.18, 0.14, 1.0)
+accent_color = Color(0.45, 0.32, 0.18, 1.0)
+min_height = 10.0
+max_height = 28.0
+crime_level = 0.7
+has_water = false
+has_cranes = true

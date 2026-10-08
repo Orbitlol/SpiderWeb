@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SkillData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/SkillData.gd" id="1_script"]
+
+[resource]
+script = ExtResource("1_script")
+skill_id = "max_health"
+display_name = "Vitality"
+description = "More health before you need a breather."
+max_rank = 3
+per_rank = 0.08

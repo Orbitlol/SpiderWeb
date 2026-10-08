@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="WebStyleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/WebStyleData.gd" id="1_script"]
+
+[resource]
+script = ExtResource("1_script")
+style_id = "custom"
+style_name = "Custom"
+primary_color = Color(0.86, 0.93, 1.0, 1.0)
+accent_color = Color(0.55, 0.75, 1.0, 1.0)
+thickness = 0.034
+glow = 1.6
+braid_scale = 22.0
+scroll_speed = 1.4
+strands = 2
+pattern = "braid"

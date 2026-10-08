@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scenes/enemies/Enemy.gd" id="1_enemy"]
+[ext_resource type="Script" path="res://scenes/enemies/EnemyAI.gd" id="2_ai"]
+
+[node name="Enemy" type="CharacterBody3D"]
+script = ExtResource("1_enemy")
+
+[node name="EnemyAI" type="Node" parent="."]
+script = ExtResource("2_ai")
+
+[node name="NavigationAgent3D" type="NavigationAgent3D" parent="."]
+path_desired_distance = 1.2
+target_desired_distance = 1.2

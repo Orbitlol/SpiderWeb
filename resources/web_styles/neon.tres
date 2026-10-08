@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="WebStyleData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/WebStyleData.gd" id="1_script"]
+
+[resource]
+script = ExtResource("1_script")
+style_id = "neon"
+style_name = "Neon"
+primary_color = Color(0.15, 0.95, 1.0, 1.0)
+accent_color = Color(1.0, 0.2, 0.75, 1.0)
+thickness = 0.028
+glow = 2.8
+braid_scale = 28.0
+scroll_speed = 2.4
+strands = 2
+pattern = "pulse"
