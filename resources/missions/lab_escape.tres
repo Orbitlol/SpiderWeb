@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="MissionData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/MissionData.gd" id="1_script"]
+
+[resource]
+script = ExtResource("1_script")
+mission_id = "lab_escape"
+title = "Lab Escape"
+briefing = "Octavius is on the lab roof. The arms are the danger."
+mission_type = "side_boss"
+district_id = "midtown"
+objective_count = 1
+time_limit = 0.0
+reward_tokens = 16
+reward_xp = 70
+reward_suit = "stealth"
+next_mission = ""
+story_flag = "lab_clear"

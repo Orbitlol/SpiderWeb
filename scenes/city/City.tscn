@@ -1,0 +1,26 @@
+[gd_scene load_steps=7 format=3]
+
+[ext_resource type="Script" path="res://scenes/city/CityManager.gd" id="1_city"]
+[ext_resource type="Script" path="res://scenes/city/StreamingManager.gd" id="2_stream"]
+[ext_resource type="Script" path="res://scenes/city/DistrictManager.gd" id="3_district"]
+[ext_resource type="Script" path="res://scenes/city/TrafficManager.gd" id="4_traffic"]
+[ext_resource type="Script" path="res://scenes/city/WeatherManager.gd" id="5_weather"]
+[ext_resource type="Script" path="res://scenes/city/DayNightCycle.gd" id="6_day"]
+
+[node name="City" type="Node3D"]
+script = ExtResource("1_city")
+
+[node name="StreamingManager" type="Node" parent="."]
+script = ExtResource("2_stream")
+
+[node name="DistrictManager" type="Node" parent="."]
+script = ExtResource("3_district")
+
+[node name="Traffic" type="Node" parent="."]
+script = ExtResource("4_traffic")
+
+[node name="Weather" type="Node" parent="."]
+script = ExtResource("5_weather")
+
+[node name="DayNight" type="Node" parent="."]
+script = ExtResource("6_day")

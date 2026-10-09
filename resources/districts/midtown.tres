@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="DistrictData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/DistrictData.gd" id="1_script"]
+
+[resource]
+script = ExtResource("1_script")
+district_id = "midtown"
+display_name = "Midtown"
+description = "Denser blocks, shorter gaps."
+wall_color = Color(0.2, 0.21, 0.24, 1.0)
+accent_color = Color(0.32, 0.34, 0.38, 1.0)
+min_height = 16.0
+max_height = 52.0
+crime_level = 0.55
+has_water = false
+has_cranes = false

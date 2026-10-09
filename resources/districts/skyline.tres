@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="DistrictData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/DistrictData.gd" id="1_script"]
+
+[resource]
+script = ExtResource("1_script")
+district_id = "skyline"
+display_name = "Skyline"
+description = "Glass towers and long swings."
+wall_color = Color(0.16, 0.18, 0.22, 1.0)
+accent_color = Color(0.35, 0.4, 0.5, 1.0)
+min_height = 42.0
+max_height = 118.0
+crime_level = 0.35
+has_water = false
+has_cranes = false

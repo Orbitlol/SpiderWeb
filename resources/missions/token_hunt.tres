@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="MissionData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/MissionData.gd" id="1_script"]
+
+[resource]
+script = ExtResource("1_script")
+mission_id = "token_hunt"
+title = "Token Hunt"
+briefing = "Eight web tokens are sitting on the rooftops."
+mission_type = "collect"
+district_id = "skyline"
+objective_count = 8
+time_limit = 0.0
+reward_tokens = 8
+reward_xp = 30
+reward_suit = "symbiote"
+next_mission = ""
+story_flag = "tokens_found"
